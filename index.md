@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-<h1 align=center><font size = 5>The Battle of Neighborhoods in Phoenix</font></h1>
 ![Image of Phoenix from Mountain Trail](https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/KfBjNBvg.png?raw=true \"Title\")
-<center><font size = 5>The Battle of Neighborhoods in Phoenix</font></center>
+<center>The Battle of Neighborhoods in Phoenix</center>
+<span style="font-family:Papyrus; font-size:4em;">The Battle of Neighborhoods in Phoenix</span>
 
 ***
 
