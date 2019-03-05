@@ -111,7 +111,7 @@ With guidance from this source, two segments were teased out for Manhattan and e
     <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh_Cluster2TopCatByHood.png?raw=true" width="675"></td>
     </tr></table></center>
 
-For Maricopa county, I landed on Cluster 2 as best fit to compare with Manhattan's Cluster 2.
+For Maricopa county, out of six clusters, I also landed on Cluster 2 as best fit to compare with Manhattan's Cluster 2.
 
 <center><table><tr>
     <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX_Cluster2TopCat.png?raw=true" width="175"></td>
