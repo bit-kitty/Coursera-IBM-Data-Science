@@ -58,12 +58,12 @@ With guidance from other sources, two segments were teased out for Manhattan and
 
 ![Manhattan Clusters](https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh_Cluster_Map.png?raw=true "Title")
 
-As you can see, the plotted clusters above align fairly well with those of the Esri Tapestry segments in Manhattan for Laptops and Lattes (light blue blocks) and High Rise Renters (purple blocks). Cluster 1 (red pins) appear to match more so to the High Rise Renters. Cluster 2 (purple pins) maps more to the Laptops and Lattes group.
+As you can see, the plotted clusters above align fairly well with those of the Esri Tapestry segments in Manhattan for Laptops and Lattes (light blue blocks) and High Rise Renters (purple blocks). Cluster 1 (red pins) appeared to match more so to the High Rise Renters. Cluster 2 (purple pins) mapped more to the Laptops and Lattes group.
 
 <center><table><tr>
-    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-Esri-Segs.png?raw=true" width="250"></td>
-    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Esri-LL.png?raw=true" width="275"></td>
-      <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Esri-HR.png?raw=true" width="275"></td>
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-Esri-Segs.png?raw=true" width="275"></td>
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Esri-LL.png?raw=true" width="300"></td>
+      <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Esri-HR.png?raw=true" width="300"></td>
     </tr></table></center>
 
 
@@ -75,9 +75,9 @@ As you can see, the plotted clusters above align fairly well with those of the E
 As mentioned earlier, there were many unexpected challenges to completing this study in a more thorough manner. Phoenix is a large city with a growing population across a huge land mass. Many neighborhoods are very widespread with their own distinct flavors, which is why the clustering exercise during this study has shown difficulties in merging groups for segmentation. Unlike Manhattan, where the culture has been pretty established, patterns were not as easy to pick up for the Phoenix area, even within the select county of Maricopa. The variety of neighborhoods and complexity of the make up requires a lot more data and time to drill in and test different methods and techniques for a more informed study. You can see the visual differences here by the amount of different shadings across the two regions within the Esri Tapestry Segmentation schematics:
 
 <center><table><tr>
-    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX-Esri-Segs.png?raw=true" width="275">
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX-Esri-Segs.png?raw=true" width="425">
         <p align="center"><sub>Maricopa (Phoenix) has upwards of 10+ segments</sub></p></td>
-    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-Esri-Segs.png?raw=true" width="275">
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-Esri-Segs.png?raw=true" width="425">
         <p align="center"><sub>Manhattan (NYC) has basically two main segments</sub></p></td>
     </tr></table></center>
 
