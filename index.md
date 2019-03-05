@@ -49,6 +49,15 @@ To note upfront, I did encounter a few challenges in the acquisition of ZIP code
 
 ![Manhattan Clusters](https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX_lat-longDataset.png?raw=true "Title")
 
+After matching to the Foursquare venue data, the resulting top 10 occurrences of venue categories for each area ranked as below.  Seeing that Phoenix is located in a state closer to the borders of Mexico, it is not surprising to see Mexican Restaurant as top listed.
+
+<center><table><tr>
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX_top10venues.png?raw=true" width="400">
+        <p align="center"><sub>Data covers 50 neighborhoods</sub></p></td>
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh_top10venues.png?raw=true" width="400">
+        <p align="center"><sub>Data covers 40 neighborhoods</sub></p></td>
+    </tr></table></center>
+
 Although there are plenty of great data around, much of it is available at the county level, FIPS, or by census block and not directly for zip codes. Many sources that had zip code data were either selling them in bulk packages or selling a platform, sorftware, or database just to receive simple counts or statistics for a couple hundred ZIP codes. Therefore, I had to go the manual route and collect a few measures where I could to test viability for enhancing the analytics. 
 
 Typically, I would do a much more expansive exploratory analysis with thousands of variables and feature sets to iterate through and boil down to key components for modeling, but unfortunately this was not possible for this quick study. Even with the minimal data points not in excess of a few thousand rows, I was already running up against the dreaded IBM Watson message of using more than my monthly system quota and randomly getting kicked off the system. This definitely slowed my progress and I had to cut my evaluations short before this write up since I was unable to technically continue vetting the data and finish within the week. Despite the inability to be more exhaustive, I believe some interesting insights did emerge to pave the path for future work.
@@ -86,7 +95,7 @@ According to Esri, Laptops and Lattes folks are said to be more upscale, mid-car
         <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-LL-RentOwn.png?raw=true" width="400"></td>
     </tr></table></center>
 
-The other dominant segment that is less of an interest for this study are the High Rise Renters. High Rise Renters are said to be less well off, more likely multicultural and multigenerational households with an average household size of 2.82. These are family oriented people, risk takers spending beyond their means to make ends meet and like to explore other interests to make life enjoyable.  Additional demographics for comparison:
+The other dominant segment that is less of an interest for this study are the High Rise Renters. To round out observations, High Rise Renters are said to be less well off, more likely multicultural and multigenerational households with an average household size of 2.82. These are family oriented people, risk takers spending beyond their means to make ends meet and like to explore other interests to make life enjoyable.  Additional demographics for comparison:
 
 <center><table><tr>
     <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-HR-Age.png?raw=true" width="400"></td>
@@ -98,9 +107,9 @@ The other dominant segment that is less of an interest for this study are the Hi
 With guidance from this source, two segments were teased out for Manhattan and eventually up to six were forced within Maricopa county in order to find a group that fits loosely to characteristics for a potential up and coming "Laptops and Lattes"-like segment to target. 
 
 ## Results and Discussion <a name="results"></a>
-As mentioned earlier, there were many unexpected challenges to completing this study in a more thorough manner. Phoenix is a large city with a growing population across a huge land mass. Many neighborhoods are very widespread with their own distinct flavors, which is why the clustering exercise during this study has shown difficulties in merging groups for segmentation. The urban core or downtown Phoenix is not as densely populated as they are within NYC. In fact, some surrounding neighborhoods have a higher population density per capita than the center.  
+As mentioned earlier, there were many unexpected challenges to completing this study in a more thorough manner. Phoenix is a large city with a growing population across a huge land mass. Many neighborhoods are very widespread with their own distinct flavors, which is why the clustering exercise during this study has shown difficulties in merging groups for segmentation. The urban core or downtown Phoenix is not as densely populated as they are within NYC. In fact, some surrounding neighborhoods have higher population density per capita than the downtown.  
 
-Unlike Manhattan, where the culture has been pretty established, patterns were not as easy to pick up for the Phoenix area either, even within the select county of Maricopa. Referring back to the Tapestry Segmetation schematics, you can see the visual differences here by the amount of different segment shadings across the two regions:
+Unlike Manhattan, where the culture has been pretty well established as an urban center, patterns were not as easy to pick up for the Phoenix area either, even within the select county of Maricopa. Referring back to the Tapestry Segmetation schematics, you can see the visual differences here by the amount of different segment shadings across the two regions:
 
 <center><table><tr>
     <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX-Esri-Segs.png?raw=true" width="425">
@@ -109,7 +118,9 @@ Unlike Manhattan, where the culture has been pretty established, patterns were n
         <p align="center"><sub>Manhattan (NYC) has basically two main segments</sub></p></td>
     </tr></table></center>
 
-One other thing to consider is that the individuals here in Phoenix may not be as avid Foursquare users to check-in everywhere they go either. Given the amount of traveling by car versus public transportation like the metro in NYC, individuals are less likely to always be glued to their phones to be mindful of using the Foursquare app if at all. Therefore, inherent biases and flaws already exist with the venue visitation data and could partially contribute to difficulties of breaking up the neighborhood groups. The variety of neighborhoods in Maricopa and the complexity of the make up did require a lot more data and processing time to drill in and test different approaches for a more informed study. 
+One other thing to consider is that the individuals here in Phoenix may not be as avid Foursquare users to check-in everywhere they go either. Given the amount of traveling by car versus public transportation like the metro in NYC, individuals are less likely to always be glued to their phones to be mindful of using the Foursquare app if at all. Therefore, inherent biases and flaws already exist with the venue visitation data and could partially contribute to difficulties of breaking up the neighborhood groups. 
+
+The variety of neighborhoods in Maricopa and the complexity of the make up did require a lot more data and processing time to drill in and test different approaches for a more informed study. With that said, additional ZIP code statistics were manually compiled and
 
 Cluster 2 for Maricopa showed some promising indications for providing services that would cater to younger, career-focused professionals with a busy lifestyle. Perhaps busines service around health and fitness or special quality dry cleaning services would support an active, on-the-go lifestyle for these individuals. With the lack of publicly available data readily available for the Phoenix neighborhoods, these opportunity suggestions are not fail proof. A lot of time was spent on manual collections of the minimal additional data points used to supplement the Foursquare venue data in the study. In future work, information that can programmatically be retrieved from paid platforms would be much more fruitful in conducting this type of work.
 
