@@ -4,8 +4,7 @@ title: Home
 ---
 
 ![Image of Phoenix from Mountain Trail](https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/KfBjNBvg.png?raw=true \"Title\")
-<center>The Battle of Neighborhoods in Phoenix</center>
-<span style="font-family:Papyrus; font-size:4em;">The Battle of Neighborhoods in Phoenix</span>
+<center><span style="font-family:Papyrus; font-size:2em;">The Battle of Neighborhoods in Phoenix</span></center>
 
 ***
 
