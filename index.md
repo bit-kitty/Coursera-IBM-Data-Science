@@ -36,15 +36,13 @@ GitHub will be used as the main collaborative repository with a web based graphi
 ## Results and Discussion <a name="results"></a>
 Phoenix is a large city with a growing population across a huge land mass. Many neighborhoods are very widespread with their own distinct flavors, which is why the clustering exercise during this study has shown difficulties in merging groups for classification. Unlike Manhattan, where the culture has been pretty established, patterns were not as easy to pick up for Phoenix area, even within the select county of Maricopa. The variety of neighborhoods and complexity of the make up requires a lot more data and time to drill in to test different methods and techniques for a more informed study. You can see the difference here within the sheer amount of different shadings across the two regions for the Esri Tapestry Segmentation schematics:
 
-<table><tr>
-    <td><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX-Esri-Segs.png?raw=true" width="275">Maricopa (Phoenix) has upwards of 10+ segments</td>
-    <td> <img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-Esri-Segs.png?raw=true" width="275"><em>Manhattan (NYC) has mainly two segments</em></td>
-    </tr></table>
-<p align="center">
-  <img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX-Esri-Segs.png?raw=true" width="250" /><em>Maricopa (Phoenix) has upwards of 10+ segments</em>
-  <img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-Esri-Segs.png?raw=true" width="250" /><em>Manhattan (NYC) has mainly two segments</em>
-</p>
-    
+<center><table><tr>
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX-Esri-Segs.png?raw=true" width="275">
+        <p align="center"><sub>Maricopa (Phoenix) has upwards of 10+ segments</sub></p></td>
+    <td align="center"><center><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-Esri-Segs.png?raw=true" width="275"></center>
+        <p align="center"><sub>Manhattan (NYC) has mainly two segments</sub></p></td>
+    </tr></table></center>
+
 Using the Kmeans algorithm as part of this clustering study, both the Elbow method and Silhouette scoring provided minimal assistance in selecting the optimum k. With guidance from other sources, two segments were teased out of Manhattan and six were forced within Maricopa county to seek out a group that fits loosely to characteristics for a potential up and coming \"Laptops and Lattes\" like segment. Cluster 2 for Maricopa showed some promising indications for providing services that would cater to younger, career-focused professionals with a busy lifestyle. Perhaps busines service around health and fitness or special quality dry cleaning services would support an active, on-the-go lifestyle for these individuals. With the lack of publicly available data readily available for the Phoenix neighborhoods, these opportunity suggestions are not fail proof. A lot of time was spent on manual collections of the minimal additional data points used to supplement the Foursquare venue data in the study. In future work, information that can programmatically be retrieved from paid platforms would be much more fruitful in conducting this type of work.
 
 Additional data with respect to age, income, household size and ownership was manually compiled along with specific geo coordinates for key neighborhoods to assist in analyzing and translating the Maricopa County data. There is definitely a lot more intelligence to unearth for Phoenix with so much more opportunity for growth in both business and investments if key nuggets of information can be gained for analytics.
