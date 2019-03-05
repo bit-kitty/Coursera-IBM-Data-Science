@@ -27,8 +27,9 @@ If naysayers' opinions about the city of Phoenix as described above remains perv
 
 ## Data Description <a name="data"></a>
 ### *Objectives*
+* Get to know the local neighborhoods of Maricopa County Phoenix better.
 * Compare/Contrast Phoenix's mix of popular venue preferences focusing on Maricopa county versus those of a more established city, NYC's Manhattan borough (county equivalent).
-* Based on similarities/differences, are there opportunities to leverage with achievable local business statistics and demo overlays for Phoenix neighborhoods
+* Based on similarities/differences to Manhattan, are there business or personal opportunities to leverage for the Phoenix metro area neighborhoods.
 
 ### *Sources*
 * Foursquare<sub>[[3]](https://foursquare.com/)</sub> geolocation datasets will be used to pull sample sets of top venues within the radius of the main metro areas. Categories of these venues will be used to cluster like activities and provide some contextual understanding within each neighborhood based on matches to the dataset with neighborhoods and their identified lat/long coordinates.
@@ -40,7 +41,7 @@ If naysayers' opinions about the city of Phoenix as described above remains perv
    * Local AZ demographics data<sub>[[6]](https://arizona.hometownlocator.com/)</sub>
 * United States Census Bureau<sub>[[7]](https://www.census.gov/data/data-tools.html/)</sub> will provide some national census related business statistics at the zip code level that may be pertinent to the evaluation exercise.
     * Business Statistics
-* Given the shorten timeframe to turn around this analysis, supplemental location intelligence produced by Esri<sub>[[8]](https://www.esri.com/en-us/home) (an expert in geographic science and the builder of ArcGIS, a powerful mapping and spatial analytics software) will be used to help fill in characteristics about certain neighborhood segments within this study.
+* Given the shorten timeframe to turn around this analysis, supplemental location intelligence produced by Esri<sub>[[8]](https://www.esri.com/en-us/home)</sub> (an expert in geographic science and the builder of ArcGIS, a powerful mapping and spatial analytics software) will be used to help fill in characteristics about certain neighborhood segments within this study.
     * Esri's Tapestry Segmentation provides community lifestyle and demographic information
 
 ### *Challenges*
