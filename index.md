@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Home - IBM Data Science Capstone March 3, 2019
 ---
 
 ![Image of Phoenix from Mountain Trail](https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/KfBjNBvg.png?raw=true \"Title\")
@@ -20,7 +20,7 @@ title: Home
 ---
 
 ## Introduction <a name="introduction"></a>
-Based on Wikipedia<sub>[[1]](https://en.wikipedia.org/wiki/Phoenix_metropolitan_area)</sub> and an article published in 2017 on AZ Central<sub>[[2]](https://www.azcentral.com/story/news/local/phoenix/2017/06/11/phoenix-nation-5th-largest-but-real-city/369917001/)</sub>, Phoenix is one of the fastest growing metro areas within recent years and earned “two national distinctions with the U.S. Census Bureau numbers released Thursday [June 8, 2017]: Fifth-largest city and fastest-growing city.” However, due to its vast land mass within the [Metropolitan Statistical Area (MSA)](https://en.wikipedia.org/wiki/Metropolitan_area) boundaries, this got some thinking it to be rather atypical of a “true city,” like New York City. Key neighborhoods being miles apart don’t fit together well for people seeking a traditional sense of one big city. Having been in the area a short while, I find that the uniqueness of the area is very much appreciated in recent urban developments that have injected pieces of the real city in many neighborhoods surrounding the urban core.  This adds a different kind of urban flavor that takes a typical city adventure beyond a congested concrete jungle.
+Based on Wikipedia<sub>[[1]](https://en.wikipedia.org/wiki/Phoenix_metropolitan_area)</sub> and an article published in 2017 on AZ Central<sub>[[2]](https://www.azcentral.com/story/news/local/phoenix/2017/06/11/phoenix-nation-5th-largest-but-real-city/369917001/)</sub>, Phoenix is one of the fastest growing metro areas within recent years and earned “two national distinctions with the U.S. Census Bureau numbers released Thursday [June 8, 2017]: Fifth-largest city and fastest-growing city.” However, due to its vast land mass within the [Metropolitan Statistical Area (MSA)](https://en.wikipedia.org/wiki/Metropolitan_area) boundaries, this got some thinking it to be rather atypical of a “true city,” like New York City. Key neighborhoods being miles apart don’t fit together well for people seeking a traditional sense of one big city. Having been in the area a short while, I find that the uniqueness of the area is very much appreciated in recent urban developments that have injected pieces of the real city in many neighborhoods surrounding the urban core.  
 
 ## Problem Statement <a name="problem"></a>
 If the types of opinions described above remains pervasive, it may discourage some city seekers like new families and young professionals to dismiss the opportunities that lies within Arizona. One way to help new prospects better appreciate the area is to explore the various neighborhoods with geolocation data from Foursquare and supplemental local datapoints to understand the composition of top activities, popular venues, and businesses within key neighborhoods. We can then compare these areas to those within a big city like New York City for context. With growth, comes economic development and increased business opportunities. Any similarities/differences found during the exploration could be leveraged to help identify potential pockets of opportunities. Let's see what the data can tell us during this data exploration exercise."
@@ -46,8 +46,9 @@ Using the Kmeans algorithm as part of this clustering study, both the Elbow meth
 Additional data with respect to age, income, household size and ownership was manually compiled along with specific geo coordinates for key neighborhoods to assist in analyzing and translating the Maricopa County data. There is definitely a lot more intelligence to unearth for Phoenix with so much more opportunity for growth in both business and investments if key nuggets of information can be gained for analytics.
 
 ## Conclusion <a name="conclusion"></a>
-This region is definitely unique and marches to the beat of it's own drums. Phoenix is a new type of city and should be appreciated for what it is instead of forcing it to replicate another New York, LA, or even Chicago. There's plenty of room for growth and development and a ton of adventures to be had.
+The Phoenix metropolitan region is definitely unique and marches to the beat of it's own drums. It is a new type of city and should be appreciated for what it is becoming instead of forcing it to replicate another New York, LA, or even Chicago. With dispersed areas of city living, this adds a different kind of urban flavor that takes a typical city adventure beyond a congested concrete jungle. There's obviously plenty of room for growth, development, and a ton of indoor/outdoor adventures to be had.
 
 ## References
 [1] ["Wikipedia - Phoenix Metropolitan Area"](https://en.wikipedia.org/wiki/Phoenix_metropolitan_area/)
+
 [2] ["Phoenix is the nation's 5th largest — but is it a 'real' city?"](https://www.azcentral.com/story/news/local/phoenix/2017/06/11/phoenix-nation-5th-largest-but-real-city/369917001/)
