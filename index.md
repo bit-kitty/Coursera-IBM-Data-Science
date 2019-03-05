@@ -29,7 +29,7 @@ If naysayers' opinions about the city of Phoenix as described above remains perv
 ### *Objectives*
 * Gain better insight into Phoenix and the local neighborhoods of Maricopa County.
 * Compare/Contrast Phoenix's mix of popular venue preferences focusing on Maricopa county versus those of a more established city, NYC's Manhattan borough (county equivalent).
-* Based on similarities/differences to Manhattan, are there business or personal opportunities to leverage for the Phoenix metro area neighborhoods.
+* Based on similarities/differences to Manhattan, are there potential business opportunities for the Phoenix metro area neighborhoods.
 
 ### *Sources*
 * Foursquare<sub>[[3]](https://foursquare.com/)</sub> geolocation datasets will be used to pull sample sets of top venues within the radius of the main metro areas. Categories of these venues will be used to cluster like activities and provide some contextual understanding within each neighborhood based on matches to the dataset with neighborhoods and their identified lat/long coordinates.
