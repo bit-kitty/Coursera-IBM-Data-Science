@@ -3,12 +3,12 @@ layout: default
 title: Home - IBM Data Science Capstone March 3, 2019
 ---
 
-![Image of Phoenix from Mountain Trail](https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/KfBjNBvg.png?raw=true \"Title\")
+![Image of Phoenix from Mountain Trail](https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/KfBjNBvg.png?raw=true "Title")
 <center><span style="font-family:Papyrus; font-size:2em;">The Battle of Neighborhoods in Phoenix</span></center>
 
 ***
 
-## Table of contents
+## Table of Contents
 * [Introduction](#introduction)
 * [Problem Statement](#problem)
 * [Data Description](#data)
@@ -45,24 +45,43 @@ If naysayers' opinions about the city of Phoenix as described above remains perv
     * Esri's Tapestry Segmentation provides community lifestyle and demographic information
 
 ### *Challenges*
-To note upfront, I did encounter a huge challenge in the acquisition of ZIP code neighborhood data as well as key indicators at the ZIP code level for the Maricopa neighborhoods that took a lot of time up front to set up the master dataset before any exploration could be conducted for the area. Although there's plenty of great data around, much of it is available at the county level, FIPS, or by census block and not directly for zip codes. Many sources that had zip code data were either selling them in bulk packages or selling a platform, sorftware, or database just to get simple counts or statistics for a couple hundred ZIP codes. Therefore, I had to manually collect a few measures to test viability to enhance the analytics. 
+To note upfront, I did encounter a few challenges in the acquisition of ZIP code neighborhood data as well as the completeness of key indicators at that level code level for the Maricopa neighborhoods. This took a lot of set up time to structure the master datasets before any exploration could be conducted for the area. Although there are plenty of great data around, much of it is available at the county level, FIPS, or by census block and not directly for zip codes. Many sources that had zip code data were either selling them in bulk packages or selling a platform, sorftware, or database just to receive simple counts or statistics for a couple hundred ZIP codes. Therefore, I had to go the manual route and collect a few measures where I could to test viability to enhance the analytics. 
 
-Typically, I would do a much more expansive exploratory analysis with thousands of variables and feature sets to iterate through and boil down to key components for modeling, but unfortunately this was not possible for this quick study. Even with the minimal data points not in excess of a few thousand rows, I was already running up against the dreaded IBM Watson message of using more than my monthly system quota and randomly getting kicked off the system. This definitely slowed my progress and I had to cut my evaluations short since I could not technically continue in a timely manner. Despite the inability to be more complete analysis, I believe some interesting insights did emerge to pave the path for future work.
+Typically, I would do a much more expansive exploratory analysis with thousands of variables and feature sets to iterate through and boil down to key components for modeling, but unfortunately this was not possible for this quick study. Even with the minimal data points not in excess of a few thousand rows, I was already running up against the dreaded IBM Watson message of using more than my monthly system quota and randomly getting kicked off the system. This definitely slowed my progress and I had to cut my evaluations short since I could not technically continue to vet the data more and finish in a timely manner. Despite the inability to be more exhaustive, I believe some interesting insights did emerge to pave the path for future work.
 
 ## Methodology <a name="methodology"></a>
 GitHub will be used as the main collaborative repository with a web based graphical interface to host the files for this project. The majority of the processing will be conducted from a Python notebook on the IBM Watson platform. The base geolocation files will be built off of publicly available neighborhood latitude/longitude for each area. A simple clustering exercise employing K-means algorithms will first be conducted on Foursquare social networking data to compare top activities within Phoenix versus those within Manhattan for observations of basic behavior differences. Key points of differentiation from Manhattan will be leveraged to further build out segmentation for the Phoenix area to help identify pockets of potential opportunity within like neighborhoods with some demographics overlay for context.
 
+Using the Kmeans algorithm as part of this clustering study, both the Elbow method and Silhouette scoring provided minimal assistance in selecting the optimum k using Foursquare venue category data. Starting with the Foursquare venue categories and the Manhattan borough lat/long dataset that was briefly used during the last coursework.
+
+With guidance from other sources, two segments were teased out for Manhattan and six were forced within Maricopa county to seek out a group that fits loosely to characteristics for a potential up and coming "Laptops and Lattes" like segment. In observing the visualization of the Foursquare segmented venue clusters for Manhattan, they do in fact, resemble the shapes of the Tapestry Segmentation developed by Esri (pictured below). With the limited amount of time for this study, I took advantage of this alignment and applied the basic demoographics findings from Esri to help explain the additional nuances of our newly formed venue based segments.
+
+![Manhattan Clusters](https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh_Cluster_Map.png?raw=true "Title")
+
+As you can see, the plotted clusters above align fairly well with those of the Esri Tapestry segments in Manhattan for Laptops and Lattes (light blue blocks) and High Rise Renters (purple blocks). Cluster 1 (red pins) appear to match more so to the High Rise Renters. Cluster 2 (purple pins) maps more to the Laptops and Lattes group.
+
+<center><table><tr>
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-Esri-Segs.png?raw=true" width="250"></td>
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Esri-LL.png?raw=true" width="275"></td>
+      <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Esri-HR.png?raw=true" width="275"></td>
+    </tr></table></center>
+
+
+
+
+
+
 ## Results and Discussion <a name="results"></a>
-As mentioned earlier, there were many unexpected challenges to completing this study more thoroughly. Phoenix is a large city with a growing population across a huge land mass. Many neighborhoods are very widespread with their own distinct flavors, which is why the clustering exercise during this study has shown difficulties in merging groups for classification. Unlike Manhattan, where the culture has been pretty established, patterns were not as easy to pick up for Phoenix area, even within the select county of Maricopa. The variety of neighborhoods and complexity of the make up requires a lot more data and time to drill in to test different methods and techniques for a more informed study. You can see the difference here within the sheer amount of different shadings across the two regions for the Esri Tapestry Segmentation schematics:
+As mentioned earlier, there were many unexpected challenges to completing this study in a more thorough manner. Phoenix is a large city with a growing population across a huge land mass. Many neighborhoods are very widespread with their own distinct flavors, which is why the clustering exercise during this study has shown difficulties in merging groups for segmentation. Unlike Manhattan, where the culture has been pretty established, patterns were not as easy to pick up for the Phoenix area, even within the select county of Maricopa. The variety of neighborhoods and complexity of the make up requires a lot more data and time to drill in and test different methods and techniques for a more informed study. You can see the visual differences here by the amount of different shadings across the two regions within the Esri Tapestry Segmentation schematics:
 
 <center><table><tr>
     <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX-Esri-Segs.png?raw=true" width="275">
         <p align="center"><sub>Maricopa (Phoenix) has upwards of 10+ segments</sub></p></td>
-    <td align="center"><center><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-Esri-Segs.png?raw=true" width="275"></center>
-        <p align="center"><sub>Manhattan (NYC) has mainly two segments</sub></p></td>
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-Esri-Segs.png?raw=true" width="275">
+        <p align="center"><sub>Manhattan (NYC) has basically two main segments</sub></p></td>
     </tr></table></center>
 
-Using the Kmeans algorithm as part of this clustering study, both the Elbow method and Silhouette scoring provided minimal assistance in selecting the optimum k. With guidance from other sources, two segments were teased out of Manhattan and six were forced within Maricopa county to seek out a group that fits loosely to characteristics for a potential up and coming \"Laptops and Lattes\" like segment. Cluster 2 for Maricopa showed some promising indications for providing services that would cater to younger, career-focused professionals with a busy lifestyle. Perhaps busines service around health and fitness or special quality dry cleaning services would support an active, on-the-go lifestyle for these individuals. With the lack of publicly available data readily available for the Phoenix neighborhoods, these opportunity suggestions are not fail proof. A lot of time was spent on manual collections of the minimal additional data points used to supplement the Foursquare venue data in the study. In future work, information that can programmatically be retrieved from paid platforms would be much more fruitful in conducting this type of work.
+Cluster 2 for Maricopa showed some promising indications for providing services that would cater to younger, career-focused professionals with a busy lifestyle. Perhaps busines service around health and fitness or special quality dry cleaning services would support an active, on-the-go lifestyle for these individuals. With the lack of publicly available data readily available for the Phoenix neighborhoods, these opportunity suggestions are not fail proof. A lot of time was spent on manual collections of the minimal additional data points used to supplement the Foursquare venue data in the study. In future work, information that can programmatically be retrieved from paid platforms would be much more fruitful in conducting this type of work.
 
 Additional data with respect to age, income, household size and ownership was manually compiled along with specific geo coordinates for key neighborhoods to assist in analyzing and translating the Maricopa County data. There is definitely a lot more intelligence to unearth for Phoenix with so much more opportunity for growth in both business and investments if key nuggets of information can be gained for analytics.
 
