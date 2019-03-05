@@ -111,7 +111,15 @@ With guidance from this source, two segments were teased out for Manhattan and e
     <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh_Cluster2TopCatByHood.png?raw=true" width="675"></td>
     </tr></table></center>
 
-For Maricopa county, out of six clusters, I also landed on Cluster 2 as best fit to compare with Manhattan's Cluster 2.
+For Maricopa county, out of six clusters, I also landed on Cluster 2 (purple pins) as best fit to compare with Manhattan's Cluster 2. Cluster 1 (red pins) was more of the 'Multi Cultural Urban Quarters' where diversity is high, with larger families and lower income. Cluster 3 (blue pin) was more of a 'Blended New Family Area' with larger average household size and mid to upper income earnings. Clusters 4-6 (turqoise, green, orange pins) are the upper echelon of neighborhoods encompassing the likes of Paradise Valley and DC Ranch Scottsdale where individuals are likely to be more settled and focus on home improvement and raising families. Here's how they mapped out for the region:
+
+![Maricopa Clusters](https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX_Cluster_Map.png?raw=true "Title")
+
+I would describe this segment as the more 'Restless "On-the-Go" Young Professionals' group. This segment encompasses 19 neighborhoods netting a relatively high diversity index, averaging 68.5 across the area with 78.3 within the top quartile (0 = not very diverse and 100 = extremely diverse). This is roughly 7% higher than the US average and 36% higher than Manhattan's Cluster 2 (proxied by Laptop and Latte segment's diversity index). Income is higher than the poorest neighborhoods within Maricopa. Not the richest group, but individuals earlier in their careers appear to populate this area of Phoenix. Average household size is smaller than the rest of the neighborhood clusters in the study making this group more likely to be single households or not yet with children. Percent of home ownership is the lowest in comparison to other neighborhood segments. 
+
+![Maricopa Cluster 2 Stats](https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX-Cluster2Stats.png?raw=true "Title")
+
+Mexican food tops the list, but that may be due to the abundance of them in Phoenix due to the vicinity to the borders as was pointed out earlier. Easy access makes for easy check-ins. We also see check-ins more often at gas stations, quick eateries and restaurants. Although not the same exact characteristics of the Laptops and Lattes group of Manhattan's Cluster 2, the neighborhoods within this cluster would be closest to compare and contrast for opportunities to provide additional services targeting these mobile young professionals.
 
 <center><table><tr>
     <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX_Cluster2TopCat.png?raw=true" width="175"></td>
