@@ -65,11 +65,11 @@ K-means is one of the simplest and popular unsupervised machine learning algorit
         <p align="center"><sub>Manhattan (NYC) definitely did not show much of an elbow</sub></p></td>
     </tr></table></center>
     
-In this case, with limited time and stubborn data points, I did have to seek additional business context from Esri's Tapestry Segmentation to determine which groupings are more viable for this study. While observing the visualization of the Foursquare segmented venue clusters for Manhattan, they do in fact, resemble the shapes of the Tapestry Segmentation (pictured below). With the limited amount of time for this study, I took advantage of this alignment and applied the basic demoographics findings from Esri to help explain the additional nuances of our newly formed venue based segments.
+In this case, with limited time and stubborn data points, I did have to seek additional business context from Esri's Tapestry Segmentation to determine which groupings are more viable for this study. While observing the visualization of the Foursquare segmented venue clusters for Manhattan, they do to a certain degree, resemble the shapes of the Tapestry Segmentation (pictured below). With the limited amount of time for this study, I took advantage of this alignment and applied the basic demoographics findings from Esri to help explain the additional nuances of our newly formed venue based segments.
 
 ![Manhattan Clusters](https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh_Cluster_Map.png?raw=true "Title")
 
-As you can see, the plotted clusters above align fairly well with those of the Esri Tapestry segments in Manhattan for Laptops and Lattes (light blue blocks) and High Rise Renters (purple blocks). Cluster 1 (red pins) appeared to match more so to the High Rise Renters. Cluster 2 (purple pins) mapped more to the Laptops and Lattes group.
+As you can see, the plotted clusters above aligned fairly well with those of the Esri Tapestry segments in Manhattan for Laptops and Lattes (light blue blocks) and High Rise Renters (purple blocks). Cluster 1 (red pins) appeared to match more so to the High Rise Renters. Cluster 2 (purple pins) mapped more to the Laptops and Lattes group.
 
 <center><table><tr>
     <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-Esri-Segs.png?raw=true" width="275"></td>
@@ -86,7 +86,7 @@ According to Esri, Laptops and Lattes folks are said to be more upscale, mid-car
         <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-LL-RentOwn.png?raw=true" width="400"></td>
     </tr></table></center>
 
-The other dominant segment that less of an interest for this study are the High Rise Renters. High Rise Renters are said to be less well off, more likely multicultural and multigenerational households with an average household size of 2.82. These are family oriented people, risk takers spending beyond their means to make ends meet and like to explore other interests to make life enjoyable.  Additional demographics to note:
+The other dominant segment that is less of an interest for this study are the High Rise Renters. High Rise Renters are said to be less well off, more likely multicultural and multigenerational households with an average household size of 2.82. These are family oriented people, risk takers spending beyond their means to make ends meet and like to explore other interests to make life enjoyable.  Additional demographics for comparison:
 
 <center><table><tr>
     <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-HR-Age.png?raw=true" width="400"></td>
@@ -95,10 +95,12 @@ The other dominant segment that less of an interest for this study are the High 
         <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-HR-RentOwn.png?raw=true" width="400"></td>
     </tr></table></center>
 
-With guidance from this source, two segments were teased out for Manhattan and six were forced within Maricopa county in order to seek out a group that fits loosely to characteristics for a potential up and coming "Laptops and Lattes"-like segment to target. 
+With guidance from this source, two segments were teased out for Manhattan and eventually up to six were forced within Maricopa county in order to find a group that fits loosely to characteristics for a potential up and coming "Laptops and Lattes"-like segment to target. 
 
 ## Results and Discussion <a name="results"></a>
-As mentioned earlier, there were many unexpected challenges to completing this study in a more thorough manner. Phoenix is a large city with a growing population across a huge land mass. Many neighborhoods are very widespread with their own distinct flavors, which is why the clustering exercise during this study has shown difficulties in merging groups for segmentation. Unlike Manhattan, where the culture has been pretty established, patterns were not as easy to pick up for the Phoenix area, even within the select county of Maricopa. The variety of neighborhoods and complexity of the make up requires a lot more data and time to drill in and test different methods and techniques for a more informed study. You can see the visual differences here by the amount of different shadings across the two regions within the Esri Tapestry Segmentation schematics:
+As mentioned earlier, there were many unexpected challenges to completing this study in a more thorough manner. Phoenix is a large city with a growing population across a huge land mass. Many neighborhoods are very widespread with their own distinct flavors, which is why the clustering exercise during this study has shown difficulties in merging groups for segmentation. The urban core or downtown Phoenix is not as densely populated as they are within NYC. In fact, some surrounding neighborhoods have a higher population density per capita than the center.  
+
+Unlike Manhattan, where the culture has been pretty established, patterns were not as easy to pick up for the Phoenix area either, even within the select county of Maricopa. Referring back to the Tapestry Segmetation schematics, you can see the visual differences here by the amount of different segment shadings across the two regions:
 
 <center><table><tr>
     <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX-Esri-Segs.png?raw=true" width="425">
@@ -106,6 +108,8 @@ As mentioned earlier, there were many unexpected challenges to completing this s
     <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh-Esri-Segs.png?raw=true" width="425">
         <p align="center"><sub>Manhattan (NYC) has basically two main segments</sub></p></td>
     </tr></table></center>
+
+One other thing to consider is that the individuals here in Phoenix may not be as avid Foursquare users to check-in everywhere they go either. Given the amount of traveling by car versus public transportation like the metro in NYC, individuals are less likely to always be glued to their phones to be mindful of using the Foursquare app if at all. Therefore, inherent biases and flaws already exist with the venue visitation data and could partially contribute to difficulties of breaking up the neighborhood groups. The variety of neighborhoods in Maricopa and the complexity of the make up did require a lot more data and processing time to drill in and test different approaches for a more informed study. 
 
 Cluster 2 for Maricopa showed some promising indications for providing services that would cater to younger, career-focused professionals with a busy lifestyle. Perhaps busines service around health and fitness or special quality dry cleaning services would support an active, on-the-go lifestyle for these individuals. With the lack of publicly available data readily available for the Phoenix neighborhoods, these opportunity suggestions are not fail proof. A lot of time was spent on manual collections of the minimal additional data points used to supplement the Foursquare venue data in the study. In future work, information that can programmatically be retrieved from paid platforms would be much more fruitful in conducting this type of work.
 
