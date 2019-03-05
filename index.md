@@ -56,13 +56,15 @@ Typically, I would do a much more expansive exploratory analysis with thousands 
 ## Methodology <a name="methodology"></a>
 GitHub will be used as the main collaborative repository with a web based graphical interface to host the files for this project. The majority of the processing will be conducted from a Python notebook on the IBM Watson platform. The base geolocation files will be built off of publicly available neighborhood latitude/longitude for each area. A simple clustering exercise employing K-means algorithms will first be conducted on Foursquare social networking data to compare top activities within Phoenix versus those within New York City for observations of basic behavior differences. Key points of differentiation from Manhattan will be leveraged to further build out segmentation for the Phoenix Maricopa area to help identify pockets of potential opportunity within like neighborhoods with some demographics overlay for context.
 
-Using the Kmeans algorithm as part of this clustering study, both the Elbow method and Silhouette scoring provided minimal assistance in selecting the optimum k using Foursquare venue category data. Starting with the Foursquare venue categories and the Manhattan borough lat/long dataset that was briefly used during the last coursework.
+K-means is one of the simplest and popular unsupervised machine learning algorithms meant to derive common themes based on inputs or features with unlabeled or unknown outcomes. I used this to cluster the Foursquare neighborhood activities in hopes of deriving common themes to better understand the preferences of people within each region. Since the data to be clustered are unlabeled, first objective is to determine the best number of clusters or 'k' to kick off the unsupervised modeling process. Typically, the elbow method and silhouette scores could be employed to help pick the best 'k'. However, these are not fool proof methods, especially if the data points are fairly homogenous or doesn't cluster well into distinct groups. In this case, with limited time and stubborn data points, I did have to seek business context to determine which groupings are more viable for this study. Both the Elbow method and Silhouette scoring provided minimal assistance in selecting the optimum k using Foursquare venue category data. As you can see here, after several iterations, a definitive bend was not found in either the Maricopa or Manhanttan charts during the investigation.
 
-<p align="center">
-  <img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX_elbow.png?raw=true" width="250" /><em>Maricopa (Phoenix) Elbow Curve</em>
-  <img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh_elbow.png.png?raw=true" width="250" /><em>Manhattan (NYC) Elbow Curve</em>
-</p>
-
+<center><table><tr>
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX_elbow.png?raw=true" width="425">
+        <p align="center"><sub>Maricopa (Phoenix) showed a weak elbow curve</sub></p></td>
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh_elbow.png?raw=true" width="425">
+        <p align="center"><sub>Manhattan (NYC) definitely did not show much of an elbow</sub></p></td>
+    </tr></table></center>
+    
 With guidance from other sources, two segments were teased out for Manhattan and six were forced within Maricopa county to seek out a group that fits loosely to characteristics for a potential up and coming "Laptops and Lattes" like segment. In observing the visualization of the Foursquare segmented venue clusters for Manhattan, they do in fact, resemble the shapes of the Tapestry Segmentation developed by Esri (pictured below). With the limited amount of time for this study, I took advantage of this alignment and applied the basic demoographics findings from Esri to help explain the additional nuances of our newly formed venue based segments.
 
 ![Manhattan Clusters](https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh_Cluster_Map.png?raw=true "Title")
