@@ -52,9 +52,9 @@ To note upfront, I did encounter a few challenges in the acquisition of ZIP code
 After matching to the Foursquare venue data, the resulting top 10 occurrences of venue categories for each area ranked as below.  Seeing that Phoenix is located in a state closer to the borders of Mexico, it is not surprising to see Mexican Restaurant as top listed.
 
 <center><table><tr>
-    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX_top10venues.png?raw=true" width="400">
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX_top10venues.png?raw=true" width="300">
         <p align="center"><sub>Data covers 50 neighborhoods</sub></p></td>
-    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh_top10venues.png?raw=true" width="400">
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh_top10venues.png?raw=true" width="300">
         <p align="center"><sub>Data covers 40 neighborhoods</sub></p></td>
     </tr></table></center>
 
@@ -111,6 +111,12 @@ With guidance from this source, two segments were teased out for Manhattan and e
     <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh_Cluster2TopCatByHood.png?raw=true" width="675"></td>
     </tr></table></center>
 
+For Maricopa county, I landed on Cluster 2 as best fit to compare with Manhattan's Cluster 2.
+
+<center><table><tr>
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX_Cluster2TopCat.png?raw=true" width="175"></td>
+    <td align="center"><img src="https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX_Cluster2TopCatByHood.png?raw=true" width="675"></td>
+    </tr></table></center>
 
 ## Results and Discussion <a name="results"></a>
 As mentioned earlier, there were many unexpected challenges to completing this study in a more thorough manner. Phoenix is a large city with a growing population across a huge land mass. Many neighborhoods are very widespread with their own distinct flavors, which is why the clustering exercise during this study has shown difficulties in merging groups for segmentation. The urban core or downtown Phoenix is not as densely populated as they are within NYC. In fact, some surrounding neighborhoods have higher population density per capita than the downtown.  
