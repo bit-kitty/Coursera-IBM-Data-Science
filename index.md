@@ -75,7 +75,7 @@ K-means is one of the simplest and popular unsupervised machine learning algorit
         <p align="center"><sub>Manhattan (NYC) definitely did not show much of an elbow</sub></p></td>
     </tr></table></center>
     
-In this case, with limited time and stubborn data points, I did have to seek additional business context from Esri's Tapestry Segmentation to determine which groupings are more viable for this study. While observing the visualization of the Foursquare segmented venue clusters for Manhattan, they do to a certain degree, resemble the shapes of the Tapestry Segmentation (pictured below). With the limited amount of time for this study, I took advantage of this alignment and applied the basic demoographics findings from Esri to help explain the additional nuances of our newly formed venue based segments.
+In this case, with limited time and stubborn data points, I did have to seek additional business context from Esri's Tapestry Segmentation to determine which groupings and how many are more viable for this study. For the Manhattan area, there appears to be two main segments so I followed suit in breaking Manhattan into two clusters and plotted them. While observing the visualization of the Foursquare segmented venue clusters for Manhattan, they do to a certain degree, resemble the shapes of the Tapestry Segmentation (pictured below). With the limited amount of time for this study, I took advantage of this alignment and applied the basic demographics findings from Esri to help explain the additional nuances of our newly formed venue based segments.
 
 ![Manhattan Clusters](https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/Manh_Cluster_Map.png?raw=true "Title")
 
