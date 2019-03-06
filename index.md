@@ -167,3 +167,9 @@ The Phoenix metropolitan area is definitely unique and marches to the beat of it
 [7] [*United States Census Bureau*](https://www.census.gov/data/data-tools.html/)
 
 [8] ["Esri Tapestry Segmentation"](https://www.esri.com/en-us/home)
+
+***
+
+<span style="font-family:Bebas Neue; font-size:1em;">*Author: Pam Vongboupha*</span>
+
+Thanks for reading :) Feel free to [(email me)](mailto:bit-kitty@gmail.com) with any questions or comments!
