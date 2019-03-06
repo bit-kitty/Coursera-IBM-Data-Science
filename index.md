@@ -28,7 +28,7 @@ Is Phoenix a true city? If naysayers' opinions about the city of Phoenix as desc
 
 ## Data Description <a name="data"></a>
 ### *Objectives*
-* Gain better insight into Phoenix and the local neighborhoods of Maricopa County.
+* Gain better insight into Phoenix and the local neighborhoods of Maricopa county.
 * Compare/Contrast Phoenix's mix of popular venue preferences focusing on Maricopa county versus those of a more established city, NYC's Manhattan borough (county equivalent).
 * Based on similarities/differences to Manhattan, are there potential business opportunities for the Phoenix metro area neighborhoods.
 
@@ -46,7 +46,7 @@ Is Phoenix a true city? If naysayers' opinions about the city of Phoenix as desc
     * Esri's Tapestry Segmentation provides community lifestyle and demographic information
 
 ### *Challenges*
-To note upfront, I did encounter a few challenges in the acquisition of ZIP code neighborhood data as well as the completeness of key indicators at that level code level for the Maricopa neighborhoods. This took a lot of set up time to structure the master datasets before any exploration could be conducted for the area. I ended up with 50 neighborhoods for Maricopa County and 40 for Manhattan with the matched venue data retrieved from Foursquare API eventually in this format:
+To note upfront, I did encounter a few challenges in the acquisition of ZIP code neighborhood data as well as the completeness of key indicators at the ZIP code level for the Maricopa neighborhoods. This took a lot of set up time to structure the master datasets before any exploration could be conducted for the area. I ended up with 50 neighborhoods for Maricopa County and 40 for Manhattan with the matched venue data retrieved from Foursquare API eventually in this format:
 
 ![Manhattan Clusters](https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/PHX_lat-longDataset.png?raw=true "Title")
 
