@@ -172,4 +172,4 @@ The Phoenix metropolitan area is definitely unique and marches to the beat of it
 
 <span style="font-family:Bebas Neue; font-size:1em;">*Author: Pam Vongboupha*</span>
 
-Thanks for reading :) Feel free to [(email me)](mailto:bit-kitty@gmail.com) with any questions or comments!
+>Thanks for reading! Feel free to [(email me)](mailto:bit-kitty@gmail.com) with any questions or comments.
