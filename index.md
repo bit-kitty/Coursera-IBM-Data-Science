@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home - IBM Data Science Capstone March 3, 2019
+title: Home - IBM Data Science Capstone 2019
 ---
 
 ![Image of Phoenix from Mountain Trail](https://github.com/bit-kitty/Coursera_Capstone/blob/master/ProjectData/images/KfBjNBvg.png?raw=true "Title")
